@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Сайт начинающего верстальщика</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Проект седона</title>
+    <meta charset="utf-8">
   </head>
   <body>
-    <header>
-      <nav>
-        На главную
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="main.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О нас</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="hotels.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user"> 
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Лайк</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">ХОЧУ СЮДА!</a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <main>
-      <article>
-        День первый. Как я забыл покормить кота
-
-        Кто бы мог подумать, что семантика это так важно, мне срочно нужно было об этом поговорить.
-
-        Взгляд упал на кота. Кот издал настойчивое «Мяу». И я понял — пришло время для первой записи в блог. И покормить кота.
-      </article>
-      <aside>
-        Здесь могла быть ваша реклама.
-      </aside>
+    <main class="main-index">
+      <h1 class="visually-hidden">SEDONA</h1>
+      <img class="logo" src="" alt="Логотип седона">
+      <section class="advantages">
+        <h2 class="visually-hidden">ПРЕИМУЩЕСТВА</h2>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3 class="advantages-titel">НАСТОЯЩИЙ ГОРОДОК №1</h3>
+            <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
       Подвал сайта
