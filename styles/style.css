@@ -55,20 +55,53 @@ body {
 }
 
 .main-index {
-  background-color: #ffffff;
   background-image: url(../images/index-background.jpg);
   background-size: 1200px 485px;
   background-repeat: no-repeat;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 36.77%;
 }
 
-.description{
-  background-color: #ffffff;
-  background-image: url(../images/background-white-fone.jpg);
-  background-size: 1200px 282px;
-  background-repeat: no-repeat;
-  font-family: "PT Sans", sans-serif;
-  font-size: 32px;
-  line-height: 35px;
-  text-transform: uppercase;
+.logo {
+  position: absolute;
+left: 30.92%;
+right: 30.92%;
+top: 6.65%;
+bottom: 47.46%;
+}
+
+  .description-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
   }
 
+  .description-subtitle {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  .advantages-item{
+    background-color: #82B3D3;
+    background-size: 400px 384px;
+    background-repeat: no-repeat;
+  }
+
+  .services{
+    background-color: #ffffff;
+    background-size: 1200px 417px;
+    background-repeat: no-repeat; 
+  }
+
+  .newsletter{
+    background-color: #ffffff;
+    background-image: url(../images/background-2.jpg);
+    background-size: 1200px 411px;
+    background-repeat: no-repeat;
+  }
