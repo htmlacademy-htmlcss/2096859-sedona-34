@@ -31,7 +31,6 @@
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #242424;
@@ -41,6 +40,11 @@ body {
 .page-header {
   color: #242424;
   background-color: #ffffff;
+  position: absolute;
+  height: 70px;
+  left: 40px;
+  right: 40px;
+  top: 0px;
 }
 
 .navigation-link {
@@ -65,12 +69,20 @@ body {
   bottom: 36.77%;
 }
 
+.background-image{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 36.77%;
+}
+
 .logo {
   position: absolute;
-left: 30.92%;
-right: 30.92%;
-top: 6.65%;
-bottom: 47.46%;
+  left: 30.92%;
+  right: 30.92%;
+  top: 6.65%;
+  bottom: 47.46%;
 }
 
   .description-title {
